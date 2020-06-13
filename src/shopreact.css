@@ -1,0 +1,99 @@
+
+
+
+.side {
+}
+
+.main {}
+
+.prod-found {
+	margin-bottom: 10px;
+	font-size: 11px;
+    padding-top: 5px;
+    text-align: left;
+}
+
+select {
+	height: 30px;
+	width: 150px;
+}
+
+
+.btn {
+	text-align: center;
+	font-size: 11px;
+	background-color: lightgrey;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+/*.xs, .ml, .xl, .xxl {
+	padding-right: 22px;
+}*/
+
+.side-text {
+	font-size: 11px;
+}
+
+.content {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 50px 15px;
+}
+
+.item {
+	text-align: center;
+}
+
+.item-img {
+	position: relative;
+	height: 55vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	background-position: center center;
+}
+
+.item-img::after {
+	content: "Free Shipping";
+	position: absolute;
+	background-color: #000;
+	color: #fff;
+	top: 0;
+	right: 0;
+	width: 40%;
+	padding: 10px;
+	font-size: 9px;
+
+}
+
+.item-name {
+    font-size: 18px;
+}
+
+.line {
+	border-bottom: 3px solid yellow;
+	width: 20px;
+	margin: 0 auto;
+}
+
+.main-price {
+	color: black;
+	margin-bottom: 0px;
+}
+
+.alt-price {
+	color: grey;
+}
+
+.btn-lg {
+	background-color: black;
+	color: white;
+	border-radius: 0%;
+	border: none;
+	width: 100%;
+	font-size: 20px;
+
+}
